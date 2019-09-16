@@ -9,7 +9,7 @@ public class ArrayDeletionInBetween {
 		int[] arr=initilizeArr();
 		printArr(arr);
 		
-		System.out.println("Insert into ith position.\n");
+		System.out.println("Delete from ith position.\n");
 
 		for (int i = position; i < arr.length-1; i++) {
 			arr[i]=arr[i+1];
